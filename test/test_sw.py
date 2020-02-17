@@ -47,6 +47,11 @@ class SwapiTests(unittest.TestCase):
         assert result == expected_result
         self.my_request.get.assert_called_once_with('https://swapi.co/api/planets')
 
+    def test_get_random_person(self):
+        fake_data = {'count': 87}
+        
+        
+
 
 
     
